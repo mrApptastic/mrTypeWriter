@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>TypeBandit Demo</title>
+</head>
+<body>
+<ol id="uha"></ol>
+<div id="uhuha"></div>
+<div id="uhuhaha"></div>
+<script src="mrTypeWriter.js"></script>
+<script>
+var uha = document.getElementById("uha");
+var theStrings = ["Hej, med dig. Jeg hedder Kaj", "Grønne Kaj, kender du mig.", "Tjuhej!"];
+
+var svenne = new mrTypeWriter("uha", theStrings, {"Time" : 10000, "ElementType" : "li" });
+var lars = new mrTypeWriter("uhuha", theStrings);
+var benny = new mrTypeWriter("uhuhaha", "Henrik er sej. Yeah!!");
+
+</script>
+</body>
+</html>
